@@ -6,7 +6,7 @@ Release:	0.4
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://forums.cacti.net/files/add_template.zip
-# Source3-md5:	a38f01091cb4bf1dbd86db29d6c4c966
+# Source0-md5:	a38f01091cb4bf1dbd86db29d6c4c966
 Patch0:		cacti-addons-add_template.patch
 URL:		http://forums.cacti.net/about8827.html
 BuildRequires:	rpm-perlprov
