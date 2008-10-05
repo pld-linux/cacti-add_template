@@ -2,7 +2,7 @@ Summary:	Adding template for Cacti from command line
 Summary(pl.UTF-8):	Dodawanie szablonów dla Cacti z linii poleceń
 Name:		cacti-add_template
 Version:	0.1
-Release:	0.4
+Release:	1
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://forums.cacti.net/files/add_template.zip
