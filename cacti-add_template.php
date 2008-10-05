@@ -2,13 +2,15 @@
 <?php
 /*
 +---------------------------------------------------------------------------+
-| This script import cacti xml template files by command line		    |
-| Author : Jean Francois Masure <jean-francois.masure@arche.fr>		    |
-| Version : 0.1 8 Aug 2005						    |
+| This script import cacti xml template files by command line               |
+| Author : Jean Francois Masure <jean-francois.masure@arche.fr>             |
+| Version : 0.1 8 Aug 2005                                                  |
+| Modified by PLD Linux Team <http://www.pld-linux.org>                     |
 +---------------------------------------------------------------------------+
 */
-include_once("/usr/share/cacti/include/global.php");
-include_once("/usr/share/cacti/lib/import.php"); 
+
+require_once '/usr/share/cacti/include/global.php';
+require_once '/usr/share/cacti/lib/import.php';
 
 // check if we have good number of argument
 if ($argc < 2 || in_array($argv[1], array('--help', '-help', '-h', '-?'))) {
