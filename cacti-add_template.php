@@ -1,12 +1,17 @@
 #!/usr/bin/php
 <?php
 /*
+ * $Id$
+ */
+
+/*
 +---------------------------------------------------------------------------+
 | This script import cacti xml template files by command line               |
 | Author : Jean Francois Masure <jean-francois.masure@arche.fr>             |
 | Version : 0.1 8 Aug 2005                                                  |
 | Modified by PLD Linux Team <http://www.pld-linux.org>                     |
 +---------------------------------------------------------------------------+
+
 */
 
 require_once '/usr/share/cacti/include/global.php';
@@ -23,7 +28,7 @@ array_shift($argv);
 foreach ($argv as $xml_file) {
 	$xml_data = file_get_contents($xml_file);
 	if ($xml_data === false) {
-		echo "ERROR: cannot open $xml_file, exiting\n";
+		fprintf(STDERR, "ERROR: cannot open $xml_file, exiting\n");
 		exit(1);
 	}
 
