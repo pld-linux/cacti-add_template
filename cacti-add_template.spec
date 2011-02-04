@@ -20,7 +20,7 @@ Adding template for Cacti from command line.
 
 Usage: cacti-add_template your_template.xml
 
-%description
+%description -l pl.UTF-8
 Dodawanie szablonu dla Cacti z linii poleceń.
 
 Wywołanie: cacti-add_template your_template.xml
